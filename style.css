@@ -1,21 +1,43 @@
 
-#navbar ul{
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+html{
+  overflow:hidden;
+
+}
+#navbar {
 list-style-type: none;
 margin:0;
 padding:1em;
 text-align:right;
 background-color:deepskyblue;
+width:100%
 }
 #navbar li{
   display:inline;
+  padding:1em;
 }
 
 #navbar a{
-  padding:1em;
+  padding:2em;
   color:rgb(0,100,133);
   text-decoration: none;
 }
 #navbar a:hover{
   color:rgb(0,132,176);
   text-decoration: underline;
+}
+
+#welcome-section{
+text-align: center;
+padding:1em;
+  background-color:deepskyblue;
+  font-size: 1.5em;
 }
