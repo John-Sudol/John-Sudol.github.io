@@ -1,0 +1,21 @@
+
+#navbar ul{
+list-style-type: none;
+margin:0;
+padding:1em;
+text-align:right;
+background-color:deepskyblue;
+}
+#navbar li{
+  display:inline;
+}
+
+#navbar a{
+  padding:1em;
+  color:rgb(0,100,133);
+  text-decoration: none;
+}
+#navbar a:hover{
+  color:rgb(0,132,176);
+  text-decoration: underline;
+}
