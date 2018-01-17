@@ -8,17 +8,16 @@
         vertical-align: baseline;
         background: transparent;
     }
-html{
-  overflow:hidden;
-
-}
 #navbar {
 list-style-type: none;
 margin:0;
 padding:1em;
 text-align:right;
 background-color:deepskyblue;
-width:100%
+  width:100%;
+  position:fixed;
+  overflow:scroll
+
 }
 #navbar li{
   display:inline;
@@ -37,7 +36,15 @@ width:100%
 
 #welcome-section{
 text-align: center;
-padding:1em;
+padding:5em;
   background-color:deepskyblue;
+  height:100vh;
+
+}
+#welcome-section h1 {
   font-size: 1.5em;
+}
+
+#projects{
+
 }
