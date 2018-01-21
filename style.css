@@ -56,11 +56,30 @@ padding:5em;
 }
 
 .container > a{
+ color:black;
 
-  padding:1em;
 
 }
+
+
 .icon-size{
 
   color:white;
+}
+.icon-size:hover{
+
+  color:black;
+}
+
+.fa-stack:hover .fa-circle{
+    color: white;
+}
+footer{
+  padding:1em;
+  background-color:darkslateblue;
+  color:azure;
+  text-align: center;
+}
+footer > p{
+  padding:1em;
 }
