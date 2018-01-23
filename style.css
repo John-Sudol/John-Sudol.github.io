@@ -10,7 +10,7 @@ padding:1em;
 text-align:right;
 background-color:deepskyblue;
   position:fixed;
-  overflow:scroll;
+  overflow:hidden;
   width:100%;
 
 }
